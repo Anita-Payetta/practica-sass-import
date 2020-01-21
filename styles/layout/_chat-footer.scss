@@ -1,0 +1,21 @@
+.chat-footer {
+    font-size: 14px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-top: $page_border;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-right: -20px;
+    justify-self: flex-end;
+    background-color: $swatch_1;
+
+    @media(max-width:$breakpoint_medium) {
+        position: fixed;
+        bottom: 0;
+        width: inherit;
+    }
+}

@@ -1,0 +1,24 @@
+.siderbar-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & >.footer-icon-container {
+        width: 45px;
+        line-height: 45px;
+        border-radius: 50%;
+        font-size: 22px;
+        text-align: center;
+        color: white;
+    
+        &.call-icon {
+            background-color: limegreen;
+        }
+
+        &.hangup-icon {
+            background-color: crimson;
+        }
+    }
+
+}

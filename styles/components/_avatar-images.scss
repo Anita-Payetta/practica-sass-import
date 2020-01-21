@@ -1,0 +1,16 @@
+.user-avatar {
+    width: $user_avatar_size;
+    height: $user_avatar_size;
+    border-radius: 50%;
+
+    &.chat-avatar {
+        width: $chat_avatar_size;
+        height: $chat_avatar_size;
+    }
+
+    &.chat-room-avatar {
+        width: $chat_room_avatar_size;
+        height: $chat_room_avatar_size;
+    }
+
+}

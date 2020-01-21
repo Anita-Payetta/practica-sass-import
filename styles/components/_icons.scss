@@ -1,0 +1,23 @@
+.fas {
+    
+    &.fa-circle {
+        position: absolute;
+        left: 65%;
+        bottom: 75%;
+        color: transparent;
+    }
+
+    &.fa-less-than,
+    &.fa-comment-dots,
+    &.fa-edit,
+    &.fa-bars,
+    &.fa-image,
+    &.fa-microphone,
+    &.fa-copy,
+    &.fa-video,
+    &.fa-phone {
+        color: $swatch_3;
+        margin: 0 10px;
+    }
+
+}

@@ -1,0 +1,10 @@
+.chat-searchbar {
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 2px solid $swatch_3;
+    margin-left: 10px;
+
+    &::placeholder {
+        color: $swatch_3;
+    }
+}

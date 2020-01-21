@@ -1,14 +1,164 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Práctica maquetado</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
   <link rel="stylesheet" href="styles/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-  
+
+  <header class="chat-header">
+    <div>
+      <i class="fas fa-less-than"></i>
+      <input class="chat-searchbar" type="search" name="" id="" placeholder="Search">
+    </div>
+
+    <div class="message-actions" >
+      <i class="fas fa-comment-dots"></i>
+      <i class="fas fa-edit"></i>
+    </div>
+
+    <i class="fas fa-bars"></i>
+
+  </header>
+
+  <div class="page-container">
+    
+    <aside class="sidebar-users">
+      <div class="users-container">
+        <img class="user-avatar chat-avatar" src="https://randomuser.me/api/portraits/men/3.jpg" alt="user_avatar">
+        <i class="fas fa-circle"></i>
+        <p class="user-avatar-name">Bob</p>
+      </div>
+
+      <div class="users-container">
+        <img class="user-avatar chat-avatar" src="https://randomuser.me/api/portraits/men/34.jpg" alt="user_avatar">
+        <i class="fas fa-circle"></i>
+        <p class="user-avatar-name">Jerry</p>
+      </div>
+
+      <div class="users-container">
+        <img class="user-avatar chat-avatar" src="https://randomuser.me/api/portraits/men/54.jpg" alt="user_avatar">
+        <i class="fas fa-circle"></i>
+        <p class="user-avatar-name">Jonathan</p>
+      </div>
+
+      <div class="users-container">
+        <img class="user-avatar chat-avatar" src="https://randomuser.me/api/portraits/men/51.jpg" alt="user_avatar">
+        <i class="fas fa-circle"></i>
+        <p class="user-avatar-name">Mike</p>
+      </div>
+
+      <div class="users-container">
+        <img class="user-avatar chat-avatar" src="https://randomuser.me/api/portraits/women/83.jpg" alt="user_avatar">
+        <i class="fas fa-circle"></i>
+        <p class="user-avatar-name">Suzanne</p>
+      </div>
+
+      <div class="users-container">
+        <img class="user-avatar chat-avatar" src="https://randomuser.me/api/portraits/men/15.jpg" alt="user_avatar">
+        <i class="fas fa-circle"></i>
+        <p class="user-avatar-name">Tom</p>
+      </div>
+
+    </aside>
+
+    <main class="chat-container">
+
+      <div class="messages-container">
+
+        <div class="chat-message-container">
+          <img class="user-avatar chat-room-avatar" src="https://randomuser.me/api/portraits/men/54.jpg" alt="">
+          <div class="user-chat-bubble">
+            <p>Who says this is not the greatest chap app on earth? My avatar looks amazing!</p>
+          </div>
+        </div>
+
+        <div class="chat-message-container">
+          <img class="user-avatar chat-room-avatar" src="https://randomuser.me/api/portraits/men/2.jpg" alt="">
+          <div class="user-chat-bubble">
+            <p>My mom says its to hard to use...oh and ur avatar is from Grzegorz Porada it looks just like u!</p>
+          </div>
+        </div>
+
+        <div class="chat-message-container">
+          <img class="user-avatar chat-room-avatar" src="https://randomuser.me/api/portraits/men/54.jpg" alt="">
+          <div class="user-chat-bubble">
+            <p>Well she is 90 and old school.</p>
+          </div>
+        </div>
+
+        <div class="chat-message-container">
+          <img class="user-avatar chat-room-avatar" src="https://randomuser.me/api/portraits/men/2.jpg" alt="">
+          <div class="user-chat-bubble">
+            <p>Yeah I know but the funny thing is she's always on the facebook messenger app and this is 10 times easier to use plus it looks pretty</p>
+          </div>
+        </div>
+
+        <div class="chat-message-container">
+          <img class="user-avatar chat-room-avatar" src="https://randomuser.me/api/portraits/men/54.jpg" alt="">
+          <div class="user-chat-bubble">
+            <p>Hey I have an idea...how about you post this shot on Dribbble and get some feedback?</p>
+          </div>
+        </div>
+
+        <div class="chat-message-container">
+          <img class="user-avatar chat-room-avatar" src="https://randomuser.me/api/portraits/men/2.jpg" alt="">
+          <div class="user-chat-bubble">
+            <p>Great idea I'm sure this will be loved by the dribbble players</p>
+          </div>
+        </div>
+
+        <div class="chat-message-container">
+          <img class="user-avatar chat-room-avatar" src="https://randomuser.me/api/portraits/men/54.jpg" alt="">
+          <div class="user-chat-bubble">
+            <p>Make sure to tag it #dailyui</p>
+          </div>
+        </div>
+      </div>  
+
+    <footer class="chat-footer">
+      <i class="fas fa-image"></i>
+      <textarea class="textarea-message" name="" id="" cols="30" rows="1"></textarea>
+      <i class="fas fa-microphone"></i>
+    </footer>
+
+    </main>
+
+    <aside class="sidebar-contact">
+      <header class="sidebar-contact-header">
+      <p class="contact-name">Jonathan</p>
+      <div>
+        <i class="fas fa-copy"></i>
+        <i class="fas fa-video"></i>
+        <i class="fas fa-phone"></i>
+      </div>
+      </header>
+
+      <img class="user-avatar phone-user-avatar" src="https://randomuser.me/api/portraits/men/54.jpg" alt="user_avatar">
+
+      <footer class="siderbar-footer">
+        <div class="footer-icon-container call-icon">
+          <i class="fas fa-user-check"></i>
+        </div>
+        <div class="footer-icon-container hangup-icon">
+          <i class="fas fa-user-times"></i>
+        </div>
+      </footer>
+    
+    </aside>
+
+  </div>
+
 </body>
+
 </html>

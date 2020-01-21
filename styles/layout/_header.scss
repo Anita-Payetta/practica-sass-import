@@ -1,0 +1,22 @@
+.chat-header {
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    background-color: $swatch_1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-bottom: $page_border;
+    z-index: 1;
+
+    @media(max-width:$breakpoint_medium) {
+        position: fixed;
+        padding: 10px;
+
+        .message-actions {
+            display: none;
+        }
+    }
+}
